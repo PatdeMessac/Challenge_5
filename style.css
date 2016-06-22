@@ -1,20 +1,60 @@
-*{text-align: justify;}
-
-.container_high{
-
+*{
+	text-align: left;
+margin: 0;
+padding: 0;
 }
 
-	.IMG1{
+/*
+.col a{
+	background-color: black;
+text-decoration: none;}*/
+
+.container-fluid {
+width : 1150px;
+height : 780px;
+}
+
+.container_high{padding-top : 50px;
+background-color: black;}
+
+	.IMG1, .IMG2, .IMG3 {
+		width : 350px;
 		height : 200px;
-		background-image: url("images/img1.jpg");
-	background-repeat: no-repeat;
-	background-size : cover;
 	}
 
-	.txt_img1 a p{
-		background-color: fuchsia;
+	.IMG1, .IMG2, .IMG3 {
+	height : 200px;
+	background-repeat: no-repeat;
+	background-size : cover;
+}
 
+	.IMG1{background-image: url("images/img1.jpg");}
+
+
+	.IMG2{background-image: url("images/img2.jpg");}
+
+	
+	.IMG3{background-image: url("images/img3.jpg");}
+
+	.txt_img1 a p,.txt_img2 a p, .txt_img3 a p{
+		color : white;
+		background-color: black;
+margin-bottom : 0px;
 		}
+
+.col-md-12 h1{
+	font-size: 25px;}
+
+.col-md-12{padding-left: 40px;}
+
+.col-md-4 a {color: green;}
+
+.col-md-4 p{
+	font-family:;
+	font-size: 12px; }
+
+.col-md-12 a {color: green;}
+
 
 
 .container_middle_center{}
@@ -25,5 +65,23 @@
 
 .container_middle_right{}
 
-	.BLOC_DROIT_HAUT{}
+	.BLOC_DROIT_HAUT{
+		margin-top : 50px;
+		border-top : solid 5px black;
+		border-bottom : solid 5px black;
+	}
+
+
+
 	.BLOC_DROIT_BAS{}
+
+	.audiotheme{
+		width : 315px;
+		height : 180px;
+		background-image: url(images/audiotheme-overview-video-thumbnail.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+    	background-attachment: fixed;
+    	background-position: center; 
+
+	}
