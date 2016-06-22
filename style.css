@@ -1,0 +1,29 @@
+*{text-align: justify;}
+
+.container_high{
+
+}
+
+	.IMG1{
+		height : 200px;
+		background-image: url("images/img1.jpg");
+	background-repeat: no-repeat;
+	background-size : cover;
+	}
+
+	.txt_img1 a p{
+		background-color: fuchsia;
+
+		}
+
+
+.container_middle_center{}
+
+	.VIDEO{}
+
+	.TEXT_BLOC_VIDEO{}
+
+.container_middle_right{}
+
+	.BLOC_DROIT_HAUT{}
+	.BLOC_DROIT_BAS{}
