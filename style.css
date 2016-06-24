@@ -1,65 +1,96 @@
 *{
 	text-align: left;
-margin: 0;
-padding: 0;
 }
 
-/*
-.col a{
-	background-color: black;
-text-decoration: none;}*/
-
 .container-fluid {
-width : 1150px;
+width : 1200px;
 height : 780px;
 }
 
-.container_high{padding-top : 50px;
+.container_high{
+padding-top : 50px;
 background-color: black;}
 
 	.IMG1, .IMG2, .IMG3 {
-		width : 350px;
+		width : 100%;
 		height : 200px;
+		background-repeat: no-repeat;
+		background-size : cover;
 	}
 
-	.IMG1, .IMG2, .IMG3 {
-	height : 200px;
-	background-repeat: no-repeat;
-	background-size : cover;
-}
+	.IMG1:hover,.IMG2:hover,.IMG3:hover{opacity : 0.7;}
 
-	.IMG1{background-image: url("images/img1.jpg");}
+	.IMG1{	
+		background-image: url("images/img1.jpg");
+	}
 
 
-	.IMG2{background-image: url("images/img2.jpg");}
+	.IMG2{
+		background-image: url("images/img2.jpg");
+	}
 
 	
-	.IMG3{background-image: url("images/img3.jpg");}
+	.IMG3{
+		background-image: url("images/img3.jpg");
+	}
 
 	.txt_img1 a p,.txt_img2 a p, .txt_img3 a p{
+		font-size : 12px;
 		color : white;
 		background-color: black;
-margin-bottom : 0px;
+		margin-top : 5px;
+		margin-left: 5px;
+		/*margin-bottom : 0px;*/
 		}
 
-.col-md-12 h1{
-	font-size: 25px;}
+	.txt_img1 a h2,.txt_img2 a h2, .txt_img3 a h2{
+		font-size: 23px;
+		color : white;
+		background-color: black;
+		margin-top : 5px;
+		margin-left: 5px;
+		/*margin-bottom : 0px;*/
+		}
 
-.col-md-12{padding-left: 40px;}
 
-.col-md-4 a {color: green;}
+	.txt_img1 a p:hover,.txt_img2 a p:hover, .txt_img3 a p:hover{
+	color: green;
+	}
 
-.col-md-4 p{
-	font-family:;
-	font-size: 12px; }
+	.txt_img1 a h2:hover,.txt_img2 a h2:hover, .txt_img3 a h2:hover{
+	color: green;
+	}
 
-.col-md-12 a {color: green;}
 
 
 
 .container_middle_center{}
 
-	.VIDEO{}
+	.col-md-12 p {color: black;
+		font-size: 16px;
+		padding-right: 100px;}
+
+	.col-md-12 h1{
+	font-size: 25px;}
+
+	/*.col-md-12{padding-left: 40px;}*/
+
+.col-md-12 a{
+	font-size: 16px;
+	color: green;
+	}
+
+.col-md-12 h1 {font-size:35px;}
+.col-md-12 a:hover {
+	text-decoration: none;
+	color: green;
+	opacity: 0.7;
+	}
+
+	.VIDEO{
+		width: 350px;
+		height: 250px;
+	}
 
 	.TEXT_BLOC_VIDEO{}
 
@@ -70,8 +101,6 @@ margin-bottom : 0px;
 		border-top : solid 5px black;
 		border-bottom : solid 5px black;
 	}
-
-
 
 	.BLOC_DROIT_BAS{}
 
@@ -85,3 +114,17 @@ margin-bottom : 0px;
     	background-position: center; 
 
 	}
+	.col-md-4 a {
+	font-size: 20px;
+	color: green;
+	}
+
+	.col-md-4 a:hover {
+	text-decoration: none;
+	color: green;
+	opacity: 0.7;
+	}
+
+	.col-md-4 p{
+	font-family:;
+	font-size: 14px; }
