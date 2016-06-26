@@ -70,18 +70,15 @@ background-color: black;}
 		font-size: 16px;
 		padding-right: 100px;}
 
-	.col-md-12 h1{
-	font-size: 25px;}
 
-	/*.col-md-12{padding-left: 40px;}*/
-
-.col-md-12 a{
+	.col-md-12 a{
 	font-size: 16px;
 	color: green;
 	}
 
-.col-md-12 h1 {font-size:35px;}
-.col-md-12 a:hover {
+	.col-md-12 h1 {font-size:35px;}
+
+	.col-md-12 a:hover {
 	text-decoration: none;
 	color: green;
 	opacity: 0.7;
@@ -89,10 +86,12 @@ background-color: black;}
 
 	.VIDEO{
 		width: 350px;
-		height: 250px;
+		height: 400px;
 	}
 
 	.TEXT_BLOC_VIDEO{}
+
+
 
 .container_middle_right{}
 
@@ -127,4 +126,16 @@ background-color: black;}
 
 	.col-md-4 p{
 	font-family:;
+	color : #767AA0;
 	font-size: 14px; }
+
+.Arena {
+	}
+
+.Telluride{
+	border-top: solid 1px #767AA0;
+	border-bottom: solid 1px #767AA0;
+}
+
+.Miller{
+	}
